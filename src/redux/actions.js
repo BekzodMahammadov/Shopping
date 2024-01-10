@@ -11,15 +11,15 @@ export const deleteItem = (payload) => {
     payload,
   };
 };
-export const addSubTotal = (payload) => {
+export const minus = (payload) => {
   return {
-    type: "SUB_TOTAL",
+    type: "MINUS",
     payload,
   };
 };
-export const addSubTotalMinus = (payload) => {
+export const plus = (payload) => {
   return {
-    type: "SUB_TOTAL_",
+    type: "PLUS",
     payload,
   };
 };
